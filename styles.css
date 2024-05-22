@@ -137,3 +137,8 @@ table {
 :root {
   font-family: Rubik, sans-serif;
 }
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
