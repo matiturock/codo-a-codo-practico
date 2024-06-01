@@ -30,11 +30,11 @@
         </a>
       </div>
       <div class="header__nav-links-container">
-        <a class="header__nav-link" href="/productos">Productos</a>
+        <a class="header__nav-link" href="/">Productos</a>
         <a class="header__nav-link" href="/ventas">Ventas</a>
         <a class="header__nav-link" href="/sobre-nosotros">Sobre nosotros</a>
-        <a class="header__nav-link" href="index.html">Home</a>
-        <a class="header__nav-link header__nav-link-minicart" href="/cart">
+        <a class="header__nav-link" href="index.html" style="text-decoration: underline !important;">Login</a>
+        <a class="header__nav-link header__nav-link-minicart" href="/cart" title="minicart">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3"
             viewBox="0 0 16 16">
             <path
@@ -45,28 +45,36 @@
     </nav>
   </header>
   <main class="content-container">
-    <div class="main">  	
-		<input type="checkbox" id="chk" aria-hidden="true">
+    <div class="main">
+      <input type="checkbox" id="chk" aria-hidden="true">
 
-			<div class="signup">
-				<form>
-					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="User name" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Sign up</button>
-				</form>
-			</div>
+      <div class="signup">
+        <form>
+          <h2 class="title_h2">Registrarse</h2>
+          <input type="text" name="txt" placeholder="User name" required="">
+          <input type="password" name="pswd" placeholder="Password" required="">
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
 
-			<div class="login">
-				<form>
-					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Login</button>
-				</form>
-			</div>
-	</div>
+      <div class="login">
+        <form>
+          <h2 class="title_h2">Iniciar Sesión</h2>
+          <input type="email" name="email" placeholder="Email" required="">
+          <input type="password" name="pswd" placeholder="Password" required="">
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
   </main>
+
+  <footer>
+    <div>
+      <p>Creado para programación Codo a Codo 💪</p>
+      <p>Powery By HTML and CSS</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>

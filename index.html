@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -29,11 +30,11 @@
         </a>
       </div>
       <div class="header__nav-links-container">
-        <a class="header__nav-link" href="/productos">Productos</a>
+        <a class="header__nav-link" href="/" style="text-decoration: underline;">Productos</a>
         <a class="header__nav-link" href="/ventas">Ventas</a>
         <a class="header__nav-link" href="/sobre-nosotros">Sobre nosotros</a>
-        <a class="header__nav-link" href="logIn.html">Log In</a>
-        <a class="header__nav-link header__nav-link-minicart" href="/cart">
+        <a class="header__nav-link" href="login.html">Log In</a>
+        <a class="header__nav-link header__nav-link-minicart" href="/cart" title="mincart">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3"
             viewBox="0 0 16 16">
             <path
@@ -45,7 +46,25 @@
   </header>
   <main class="content-container">
     <section class="content-container-grid">
-      <div class="product product__1">
+      <!-- Producto Main -->
+      <div class="product__main">
+        <a href="/">
+          <div class="product-main__container">
+            <div class="producto__info">
+              <h3 class="producto__info-name">Donas X3</h3>
+              <p class="producto__info-price">$40</p>
+              <div class="producto__info-bags">
+                <p class="bag">New</p>
+                <p class="bag">OFF</p>
+              </div>
+            </div>
+            <div class="product-main__image_container">
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Producto 1 -->
+      <div class="product">
         <a href="/">
           <div class="product__container">
             <div class="producto__info">
@@ -56,17 +75,54 @@
                 <p class="bag">OFF</p>
               </div>
             </div>
-            <figure class="product__picture">
-              <picture>
-                <source
-                  srcset="https://media.crystallize.com/dounot/22/12/2/27/@100/triple_trouble_famimly_box.png 100w, https://media.crystallize.com/dounot/22/12/2/27/@200/triple_trouble_famimly_box.png 200w, https://media.crystallize.com/dounot/22/12/2/27/@500/triple_trouble_famimly_box.png 500w, https://media.crystallize.com/dounot/22/12/2/27/@768/triple_trouble_famimly_box.png 768w, https://media.crystallize.com/dounot/22/12/2/27/@1024/triple_trouble_famimly_box.png 1024w, https://media.crystallize.com/dounot/22/12/2/27/@1366/triple_trouble_famimly_box.png 1366w">
-              </picture>
-            </figure>
+            <div class="product__image_container-1">
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product">
+        <a href="/">
+          <div class="product__container">
+            <div class="producto__info">
+              <h3 class="producto__info-name">Donas X3</h3>
+              <p class="producto__info-price">$40</p>
+              <div class="producto__info-bags">
+                <p class="bag">New</p>
+                <p class="bag">OFF</p>
+              </div>
+            </div>
+            <div class="product__image_container-1">
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product">
+        <a href="/">
+          <div class="product__container">
+            <div class="producto__info">
+              <h3 class="producto__info-name">Donas X3</h3>
+              <p class="producto__info-price">$40</p>
+              <div class="producto__info-bags">
+                <p class="bag">New</p>
+                <p class="bag">OFF</p>
+              </div>
+            </div>
+            <div class="product__image_container-1">
+            </div>
           </div>
         </a>
       </div>
     </section>
   </main>
+
+  <footer>
+    <div>
+      <p>Creado para programación Codo a Codo 💪</p>
+      <p>Powery By HTML and CSS</p>
+    </div>
+  </footer>
 </body>
 
 </html>
